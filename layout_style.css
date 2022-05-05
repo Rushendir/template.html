@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: small-caps;
+    -webkit-tap-highlight-color:transparent;
+}
+#main{
+    margin: 25px;
+}
+.yellow .div1{
+    font-weight: 600;
+    font-size:xx-large;
+    color: black;
+    width: 50%;
+}
+.yellow .menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.yellow a:hover{
+    background-color: rgba(216, 25, 25, 0.7);
+    color: rgb(50, 50, 137);
+    border-radius: 8px;
+    padding: 5px;
+}
+.yellow .end{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 5px;
+}
+.yellow a{
+    text-decoration: none;
+}
+ .div1,.menu{
+     float: left;
+     width: 50%;
+ }
+ /*yellow part over*/
+#start,#front,#side,#sec,#dot,#yet,#rare{
+    clear: both;
+}
+/*all clear property*/
+ .green .div2{
+    padding: 35px;
+    margin: auto; 
+}
+.green p{
+    line-height: 35px;
+    color: orangered;
+}
+.green button{
+    background-color: rgb(184, 28, 145);
+    color: rgb(31, 223, 13);
+    border-radius: 10px;
+    padding:5px;
+}
+.green{
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+.color{
+    padding: 10px;
+    margin: auto;
+}
+/*green part is over*/
+.read{
+    color: white;
+    padding-left: 10px;
+}
+.read1{
+    float: left;
+    width: 33.33333333%; 
+    margin:auto; 
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(230, 208, 201,80%) ;
+}
+.read1 p{
+    color: #f00e0efb;
+    margin: auto;
+}
+.read1 .img {
+    padding-right: 25px;
+}
+.read1 .but{    
+    padding: 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: blue;
+    background-color: orangered;
+}
+/*read part part is over*/
+.bottom11 p{
+    text-align: center;
+    color: rgb(184, 30, 30);
+}
+.bottom11 .but{
+    color: orangered;
+    background-color: rgb(152, 211, 35);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bottom12,.bottom11{
+    float: left;
+    width: 50%;
+}
+.div18,.div19{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.bottom11{
+    background-color: rgba(30, 28, 28,0.06);
+    color: blue;
+    margin: auto;
+    padding: 8px;
+}
+.bottom12{
+    background-color: rgba(28, 28, 28,0.06);
+    color: rgb(50,50,137);
+    margin: auto;
+    padding: 5px;
+}
+.bottom12 h2,.bottom12 ul{
+    padding: 13px;
+}
+/*bottom bottom11 bottom12 div18 div19*/
+.div6,.div7,.top{
+    float: left;
+    width: 33.33333333%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(144, 140, 135, 0.707);
+}
+.div6 .but1{
+    color: orangered;
+    background-color: rgb(152, 211, 35);
+    border-radius: 10px;
+    padding: 10px;
+}
+.div7{
+    line-height: 48px;
+}
+.div6{
+    line-height: 53px;
+}
+.top{
+    padding: 12px;
+}
+.top .but2{
+    color: orangered;
+    background-color: rgb(152, 211, 35);
+    border-radius: 10px;
+    padding: 10px;
+}
+/* bottom1 div6 div7 and top*/
+/*media querry part is open*/
+ 
+ @media only screen and (max-width: 576px){
+    .yellow .menu{
+            width: 100%;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: space-evenly;
+    }
+}
+ @media only screen and (max-width: 576px){
+     .green .div2{
+            width: 100%;
+            margin: auto;
+    }
+}
+ @media only screen and (max-width: 576px){
+    .green .color{
+            width: 100%;
+            margin: auto;
+    }
+}
+ @media only screen and (max-width: 576px){
+    .bottom11{
+            width: 100%;
+            margin: auto;
+    }
+}
+ @media only screen and (max-width: 576px){
+    .div18,.div19,.top{
+            width: 100%;
+            margin: auto;
+    }
+}
+@media only screen and (max-width: 576px){
+    .read1,.div6,.div7{
+         width: 100%;
+         margin: auto;
+ }
+}
+ @media only screen and (max-width: 576px){
+    .bottom .img{
+            width: 70%;
+            margin: auto;
+    }
+}
+ @media only screen and (min-width: 100px) and (max-width: 576px){
+    .yellow .div1{
+            width: 50%;
+            margin: auto;
+            text-align: left;
+    }
+}
+img{
+    max-width: 100%;
+}
+ 
+/*media screen for desktop and laptop
+
+
+@media only screen and (max-width: 1200px){
+    .read1,.div6,.div7,.top{
+         margin: auto;
+         justify-content: space-evenly;
+         width: 33.3333333%;
+ }
+}
+@media only screen and (max-width: 1200px){
+    .green .color{
+            width: 50%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .bottom11,.bottom12{
+            width: 50%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .bottom .img{
+            width: 70%;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 576px){
+    .yellow .menu{
+            width: 70%;
+            margin: auto;
+            background-color: rgb(153, 170, 187);
+    }
+}*/

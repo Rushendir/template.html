@@ -1,0 +1,243 @@
+
+       *{
+           box-sizing: border-box;
+           font-variant: normal;
+           -webkit-tap-highlight-color: transparent;
+       }
+       .header h1{
+        color: whitesmoke;
+        font-weight: 300;
+        font-style: normal;
+        background-color:black;
+        padding: 4px;
+        text-align: center;
+        } 
+        .div1{
+            float: left;
+            width:50%;
+            text-align: right;
+        }
+        .div1 > img{
+         border-style: groove;
+         border-width: 2px;
+         background-color:silver;
+         margin-right: 10px;
+         }
+         .parrenttag{
+             float: left;
+             width: 50%;
+         }
+        .div2 > h2{
+        font-weight: bold;
+        color: black;
+        margin-left: 10px;
+        }
+        .div3 > p{
+         color: rgb(178, 34, 53);
+         background-color:whitesmoke;
+        letter-spacing: normal;
+        text-align: center;
+        text-align: justify;
+        font-style: normal; 
+        margin-left: 8px;
+        padding: 5px;
+        }
+        .list{
+            float: left;
+            width: 50%;
+        }
+        .div4{
+        font-weight: bold;
+        color:black;
+        background-color:whitesmoke;
+        padding: 5px;
+        float: left;
+         }
+        .div5{
+        font-weight:lighter;
+        color:rgb(226, 42, 42);
+        background-color: whitesmoke;
+        padding: 5px;
+        float: left;
+        }
+        .div6{
+        margin-left: 12px;
+        padding-left: 55%;
+        }
+        .div6 > button{
+            color: blue;
+            background-color:orange;
+        }
+        .do > h2{
+        color: black;
+        font-weight: 300;
+        font-style: normal;
+        background-color:lightslategray;
+        padding: 15px;
+        text-align: center;
+        clear: both;
+         } 
+       .div12,.div13,.div14,.div15{
+        float: left;
+        border-width: 2px;
+        border:groove;
+        border-color: yellow;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: mediumpurple;
+        width: 21.666666%;
+        }
+        .div12 > h3,.div12 > p{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         font-weight: bold;
+         text-align: center;
+         padding: 7px;
+        }
+        .div13 > h3,.div13 > p{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         font-weight: bold;
+         text-align: center;
+         padding: 8px;
+        }
+        .div14 > h3,.div14 > p{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         font-weight: bold;
+         text-align: center;
+         padding: 7px;
+        }
+        .div15 > h3,.div15 > p{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         font-weight: bold;
+         text-align: center;
+         padding: 12px;
+        }
+        .div14{
+            padding: 10px;
+        }
+        .div13{
+            padding: 15px;
+        }
+        .div12 > h3,.div13 > h3,.div14 > h3,.div15 > h3{
+            color: red;
+        }
+        .overall{
+            background-color: antiquewhite;
+            align-items: center;
+        }
+        .div16{
+            width: 50%;
+            float: left;
+            text-align: center;
+            margin-left: 20px;
+            margin-right: auto;
+        }
+        .div17{
+            width: auto;
+            float: left;
+            margin-left: 5px;
+            margin-right: auto;
+        }
+        .sec{
+            background-color: dimgrey;
+            clear: both;
+        }
+        .edu{
+            float: left;
+            width: 46%;
+            margin:auto;
+            padding: 7px 7px;
+        }
+        .exp{
+            float: left;
+            width: 46%;
+            margin:auto;
+            padding: 7px 7px;
+        }
+        .yet{
+            clear: both;
+        }
+        .edu1,.edu2,.edu3{
+            background-color: gray;
+            text-align: center;
+            padding: 5px;
+        }
+        .exp1,.exp2,.exp3{
+            background-color: gray;
+            text-align: center;
+            padding: 5px;
+        }
+        .div31 > h1{
+            padding: 7px;
+            color: rgb(0,0,0);
+            text-align: center;
+            font-weight:bold;
+            font-size: 2em;
+            clear: both;
+            margin-top: 4px;
+            background-color: lightgrey;
+        }
+        .bgimg > img,.bgimg2 > img,.bgimg3 > img{
+           border-style: groove;
+           border-width: 2px;
+           border-color: orange;
+        }
+        .bgimg,.bgimg2,.bgimg3{
+            float: left;
+        }
+        .bgimg,.bgimg2,.bgimg3{
+            padding: 20px;
+            margin-left: 5px;
+            width: 29%;
+        }
+        .clear > img,.bgimg4 > img,.bgimg5 > img{
+           border-style: dashed; 
+           border-width: 2px;
+           border-color: yellow;
+        }
+        .clear,.bgimg4,.bgimg5{
+            float: left;
+        }
+        .clear,.bgimg4,.bgimg5{
+            padding: 20px;
+            margin-left: 5px;
+            width: 29%;
+        }
+        .want > img,.bgimg6 > img,.bgimg7 > img{
+           border-style: dotted; 
+           border-width: 2px;
+           border-color: pink;
+        }
+        .want,.bgimg6,.bgimg7{
+            float: left;
+        }
+        .want,.bgimg6,.bgimg7{
+            padding: 20px;
+            margin-left: 5px;
+            width: 29%;
+        }
+        .images,.bottom,.center{
+            background-color: silver;
+            float:left;
+            margin-left: 15px;
+        }
+        .center{
+            clear: both;
+        }
+        .last{
+            text-align: center;
+            padding: 5px;
+            margin-top: auto;
+            background-color: black;
+            color: white;
+            clear: both;
+        }
+        img{
+            max-width: 100%;
+        }
+        #clr{
+            clear: both;
+        }
